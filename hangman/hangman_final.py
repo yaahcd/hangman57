@@ -7,7 +7,7 @@ class Hangman():
         self.word = random.choice(self.word_list)
         self.num_letters = len(self.word)
         self.word_guessed = ["_"] * len(self.word)
-        self.list_of_guesses = None or []
+        self.list_of_guesses = []
 
 
     def check_guess(self, guess):
@@ -50,8 +50,8 @@ def play_game(word_list):
 
     while is_playing:
         if game.num_lives == 0:
-            print(game.num_lives)
-            print("You lost!")     
+            print("You lost!")
+            break     
         elif game.num_letters > 0:
             game.ask_for_input()     
         else:
