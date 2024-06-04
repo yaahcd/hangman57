@@ -7,7 +7,7 @@ class Hangman():
         self.word = random.choice(self.word_list)
         self.num_letters = len(self.word)
         self.word_guessed = ["_"] * len(self.word)
-        self.list_of_guesses = None or []
+        self.list_of_guesses = []
 
 
     def check_guess(self, guess):
