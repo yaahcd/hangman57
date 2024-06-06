@@ -16,7 +16,7 @@ class Hangman():
         if lowercase_guess in self.word:
             print(f"Good guess! {lowercase_guess} is in the word.")
             for i, letter in enumerate(self.word):
-                if letter == guess:
+                if letter == lowercase_guess:
                     self.word_guessed[i] = letter
                     self.num_letters -= 1
         else:
