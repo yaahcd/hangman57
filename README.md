@@ -3,6 +3,16 @@ Hangman is a classic game in which a player thinks of a word and the other playe
 
 This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. 
 
+### Table of Contents
+---
+<ul>
+<li>Description</li>
+<li>Installation</li>
+<li>Usage</li>
+</ul>
+
+### Description
+---
 This project was developed in Python using the principles of object-oriented programming. There are three methods that make the game work:
 <br>
 <ol>
@@ -12,4 +22,16 @@ This project was developed in Python using the principles of object-oriented pro
     <li>Another to ask for and check the user's input to ensure it is valid.</li></li></ul>
 </ol>
 
-To run this project, clone this repository and run the file in your terminal. A simple list of fruits has been provided, but you can add as many items as you want from different themes.
+### Installation
+---
+<ul>
+<li>Clone this repo: git clone https://github.com/yaahcd/hangman57.git</li>
+
+<li>To play the game, run: python hangman_final.py</li>
+</ul>
+
+### Usage
+---
+Follow instructions on your terminal and have fun! 
+
+
